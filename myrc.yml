@@ -5,11 +5,11 @@ metadata:
 spec:
    replicas: 3
    selector:
-     app: maha
+     app: mynginx
    template:
      metadata:
        labels: 
-         app: maha
+         app: mynginx
      spec:
        containers:
          - name: maha-container
